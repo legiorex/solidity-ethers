@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_logger",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "payment",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Lesson12.sol": "Lesson12"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ILogger.sol": {
+			"keccak256": "0xd4550f39592af2922a024eddb089f893c152ee3b0fa8b49b54a9eac849c39af9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://97619ee4b5749df7b2404e18f0b777d743389d4de3c856890bc557dfa0e0b752",
+				"dweb:/ipfs/QmNqMA664aa3skAjWuTvdJ5yeiqp6azjDK4RDRGjaay9SV"
+			]
+		},
+		"contracts/Lesson12.sol": {
+			"keccak256": "0xde0aa407776ab883222564fcd727ffc8dfebfda4620378bc0e52de23f53b0430",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ff36f614ea836e7c332e9049f532e1dc37332d114ab9c5d37f37930bb783b524",
+				"dweb:/ipfs/QmdN55NmS5W3srkr5nkghwmC1nQpFeLyAyqta1cZCPt48z"
+			]
+		}
+	},
+	"version": 1
+}

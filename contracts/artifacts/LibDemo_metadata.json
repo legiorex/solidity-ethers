@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "array",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "el",
+						"type": "uint256"
+					}
+				],
+				"name": "inArray",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "str1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "str2",
+						"type": "string"
+					}
+				],
+				"name": "runnerStr",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/LibDemo.sol": "LibDemo"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ext.sol": {
+			"keccak256": "0x1faa5382b7a719daa71b452b99e8b8f2c38dc592f6a63d9f74dc875794d89824",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://61fb506fa997de4d8aa2db527d6c8edb86d6228930e978a8845a2d928c8bf775",
+				"dweb:/ipfs/QmYYXtAz5UGiWhxrSP3ihrs6K66EV1HrHb6napin2eH1za"
+			]
+		},
+		"contracts/LibDemo.sol": {
+			"keccak256": "0xe010679fc79eb087a560b7f7c3649c591fd639dafd5b8d0abd1b4fa450119824",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9cfd7fc03481e4f74922e14ed3390572f4a0dccdb9572d41288e4bc3f7f92532",
+				"dweb:/ipfs/QmPUyLfxHYSCGjSHAGoU7NXK1zvwAVaPfodj22CizXVDbR"
+			]
+		}
+	},
+	"version": 1
+}

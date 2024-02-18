@@ -1,0 +1,112 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Lesson11.sol": "MyContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Balances.sol": {
+			"keccak256": "0x46625cd9737c41312a11c34ceeab6b0ff64492e386cf5fe00e10925660c9c0b3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7808dc19f9242f2e30aebf1f7d16978f7e4f45afa1fcbffd32c6850c6f9e6586",
+				"dweb:/ipfs/QmWrT8dGzN5psGp8PojmbTdHpcHXzNDfXqKCbSmDMKfscF"
+			]
+		},
+		"contracts/Lesson11.sol": {
+			"keccak256": "0x3c0366a78dc54fb93fd4ccb2c0206e28df90c66e647d21d2793bc584b5463d88",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://449ceefe192d00ffdf16baf19120e30fca0ac980315bd73f0e309e06458c3270",
+				"dweb:/ipfs/QmPZwAmQLApgpaqNzZJebfmvuZ4iA8qSFCFvVsqRg7zikz"
+			]
+		},
+		"contracts/Ownable.sol": {
+			"keccak256": "0x2d3dbf0fe08dc58cf3fb0c64cd504886ba09e98857627941ed682139aa9544a1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://72b3ca4ad56ae75db61b78eb5a62e7576eba3dbfc6d50aee2052c430591ec388",
+				"dweb:/ipfs/QmRWEJDYVibMGSHXJXAUappPdX1zVrombvFQvFxj4N7ra3"
+			]
+		}
+	},
+	"version": 1
+}

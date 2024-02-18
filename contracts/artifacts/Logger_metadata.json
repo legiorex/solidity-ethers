@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getEntry",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "log",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Logger.sol": "Logger"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ILogger.sol": {
+			"keccak256": "0xd4550f39592af2922a024eddb089f893c152ee3b0fa8b49b54a9eac849c39af9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://97619ee4b5749df7b2404e18f0b777d743389d4de3c856890bc557dfa0e0b752",
+				"dweb:/ipfs/QmNqMA664aa3skAjWuTvdJ5yeiqp6azjDK4RDRGjaay9SV"
+			]
+		},
+		"contracts/Logger.sol": {
+			"keccak256": "0x64688bfcd3d35484e8167260febac68856d7250ecbe8e49db5a0ec12732525d4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://12d396eb161727e2a5924293f3752e15a1a2070b96c05c1d43bed75fbce592a0",
+				"dweb:/ipfs/QmPmjCcT8b2ib3eGeUDFGRaf2xk7TDLqra4LNmEaAtNyf2"
+			]
+		}
+	},
+	"version": 1
+}
